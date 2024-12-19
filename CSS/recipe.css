@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffecf2;
+}
+
+.ing, .prep {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+}
+
+.card {
+    background: #90EE90;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+
+}
